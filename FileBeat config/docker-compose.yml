@@ -1,13 +1,13 @@
 version: "2"
 services:
   element_0:
-    image: "filebeat_installed:latest"
+    image: "hakiba659/dsp_images_filebeat"
     stdin_open: true
     tty: true
     networks:
       network_0: {}
   element_1:
-    image: "filebeat_installed:latest"
+    image: "hakiba659/dsp_images_filebeat"
     stdin_open: true
     tty: true
     networks:
